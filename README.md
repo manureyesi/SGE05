@@ -5,11 +5,11 @@
 Una vez creado el módulo de openacademy de la guía oficial de Odoo 11, tendremos que realizar unas pequeñas modificaciones para ampliarlo. La guía oficial se encuentra en [este enlace](https://www.odoo.com/documentation/11.0/howtos/backend.html). 
 
   1. Propiedades del módulo.
-    1. Cambiar el nombre del módulo por “academia <tu_nombre>”.
-    2. Cambiar el autor del módulo por “<tu_nombre> <apellido1> <apellido2>
+    - Cambiar el nombre del módulo por “academia <tu_nombre>”.
+    - Cambiar el autor del módulo por “<tu_nombre> <apellido1> <apellido2>
   2. Modelos
-    1. Crear un modelo para aula que indique el centro, el número de asientos, el nombre, la planta y el número de aula.
-    2. Editar el modelo partner e incluir la opción de que pueda indicarse que es alumno, así como su fecha de nacimiento.
+    - Crear un modelo para aula que indique el centro, el número de asientos, el nombre, la planta y el número de aula.
+    - Editar el modelo partner e incluir la opción de que pueda indicarse que es alumno, así como su fecha de nacimiento.
   3. Relaciones entre modelos
     1. Una sesión debe impartirse en un aula. Relaciona la sesión con el aula y el aula con las diferentes sesiones.
   4. Vistas de los modelos
