@@ -40,3 +40,11 @@ Una vez creado el módulo de openacademy de la guía oficial de Odoo 11, tendrem
   8. __Instalación y pruebas del módulo__
 
 __IMPORTANTE__: para facilitar la corrección, el código modificado o nuevo deberá comentarse. Si es una línea, el comentario será de línea (CAMBIO TAREA SXE05). Si es un bloque, el comentario se pondrá al principio (INICIO CAMBIOS TAREA SXE05) y al final (FIN CAMBIOS TAREA SXE05). Ten en cuenta que los comentarios deberán aparecer tanto en los archivos de Python como de XML.
+
+__NOTAS:__
+
+El comando para crear un modulo es:
+
+```
+odoo scaffold openacademy /usr/lib/python3/dist-packages/odoo/addons
+```
