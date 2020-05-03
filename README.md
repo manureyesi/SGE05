@@ -2,7 +2,7 @@
 
 ## Enunciado.
 
-Una vez creado el módulo de openacademy de la guía oficial de Odoo 11, tendremos que realizar unas pequeñas modificaciones para ampliarlo. La guía oficial se encuentra en [este enlace](https://www.odoo.com/documentation/11.0/howtos/backend.html). 
+Una vez creado el módulo de openacademy de la guía oficial de Odoo 11, tendremos que realizar unas pequeñas modificaciones para ampliarlo. La guía oficial se encuentra en [este enlace](https://www.odoo.com/documentation/11.0/howtos/backend.html) y la cocumentacion en español de [odoo](http://vauxoo.github.io/odoo/howtos/backend.html). 
 
   1. Propiedades del módulo.
   
