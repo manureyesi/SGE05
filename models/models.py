@@ -2,21 +2,23 @@
 
 from odoo import models, fields, api
 
-class Course(models.Model):
+# INICIO CAMBIOS TAREA SXE05
 
-    _name = 'openacademy.course'
+class Aula(models.Model):
 
-    name = fields.Char(string="Title", required=True)
-    description = fields.Text()
+    _name = 'scle.aula'
 
-# class openacademy(models.Model):
-#     _name = 'openacademy.openacademy'
+    centro = fields.Char(string="Centro")
+    numAsientos = fields.Integer()
+    nombre = fields.Char(string="NombreAula")
+    planta = fields.Integer()
+    numAula = fields.Integer()
 
-#     name = fields.Char()
-#     value = fields.Integer()
-#     value2 = fields.Float(compute="_value_pc", store=True)
-#     description = fields.Text()
-#
-#     @api.depends('value')
-#     def _value_pc(self):
-#         self.value2 = float(self.value) / 100
+class Partner(models.Model):
+
+    _inherit = 'res.partner'
+
+    esAlumno = fields.Boolean()
+    fechaCumpleanos = fields.Date()
+
+# FIN CAMBIOS TAREA SXE05
