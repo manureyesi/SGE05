@@ -2,6 +2,13 @@
 
 from odoo import models, fields, api
 
+class Course(models.Model):
+
+    _name = 'openacademy.course'
+
+    name = fields.Char(string="Title", required=True)
+    description = fields.Text()
+
 # INICIO CAMBIOS TAREA SXE05
 
 class Aula(models.Model):
